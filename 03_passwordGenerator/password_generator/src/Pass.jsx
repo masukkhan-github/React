@@ -33,6 +33,7 @@ function Pass(){
     useEffect(()=>{
         passGenerator()
     },[length,numAllowed,charAllowed,setPass,passGenerator])
+    
     return(
         <>
         <div>

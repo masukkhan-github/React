@@ -25,7 +25,7 @@ function App() {
 
   const convert = () => {
     if (!currencyInfo[to]) return;
-    setConvertedAmount(amount * currencyInfo[to]);
+    setConvertedAmount(parseFloat((amount * currencyInfo[to]).toFixed(2)));
   };
 
   return (

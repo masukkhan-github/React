@@ -1,7 +1,7 @@
 function Hello({name,color}){
     return (
         <>
-            <h1 style={{backgroundColor : color}}>Hello {name}</h1>
+            <h1 style={{color : color}}>Hello {name}</h1>
 
         </>
     )
